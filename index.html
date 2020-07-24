@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submission</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="intro" id="home">
+
+
+        <nav class="navbar">
+            <ul class="main-nav">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#reason">Indonesia</a>
+                </li>
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#subs">Subscribe</a>
+                </li>
+            </ul>
+
+            <ul class="auth-nav">
+                <li>
+                    <a href="#">Sign In</a>
+                </li>
+                <li>
+                    <a href="#">Sign Up</a>
+                </li>
+            </ul>
+            <hr>
+
+        </nav>
+        <div class="intro-content">
+            <div class="title">
+                Explore Indonesia
+            </div>
+            <div class="text">
+                SAATNYA MELIHAT KEINDAHAN DUNIA
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="reason bg-light" id="reason">
+            <div class="container grd-2">
+                <div class="card">
+                    <img src="asset/gigi-hiu.jpg" alt="" />
+                </div>
+                <div class="reason-content center">
+                    <h1 class="text-center">KENAPA INDONESIA?</h1>
+                    <hr>
+                    <article>
+                        <p>
+                            Kekayaan alam Indonesia, menjadi magnet yang selalu mampu menarik minat para wisatawan. Dari
+                            mulai pegunungan hingga laut, dari dataran tinggi hingga lembah-lembah dan ngarai semuanya
+                            memesona.
+                        </p>
+                    </article>
+                    <article>
+                        <p style="text-align:right; margin-top: 40px;">
+                            Indonesia terkenal di mancanegara sebagai negara dengan alam yang indah. Negara kepulauan
+                            seluas 1,91 juta km2 ini memang memiliki bentang alam yang memesona, mulai dari Aceh hingga
+                            Papua.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="galery bg-img" id="gallery">
+            <div class="bg-trans">
+                <h1 class="text-center">FOTO GALLERY</h1>
+                <hr>
+                <div class="grd-5">
+                    <div class="img-one">
+                        <img src="asset/img1.jpg" alt="" />
+                    </div>
+                    <div class="img-two">
+                        <img src="asset/img2.jpg" alt="" />
+                        <img src="asset/img3.jpg" alt="" />
+                    </div>
+                    <div class="img-one">
+                        <img src="asset/img4.jpg" alt="" />
+                    </div>
+                    <div class="img-two">
+                        <img src="asset/img5.jpg" alt="" />
+                        <img src="asset/img6.jpg" alt="" />
+                    </div>
+                    <div class="img-one hidden">
+                        <img src="asset/img7.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about bg-grey" id="about">
+            <div class="container grd-2">
+                <div class="submission">
+                    <h1 class="text-center">TENTANG PROJECT</h1>
+                    <hr>
+                    <p>Project ini didasari karena di Indonesia banyak sekali tempat - tempat wisata terutama wisata
+                        alam yang bisa di jelajahi sehingga kita bisa mengenal kekayaan alam kita, juga agar turis -
+                        turis asing bisa banyak berdatangan ke negara kita yang pastinya akan banyak sekali keuntungan
+                        yang didapat oleh pemerintah kita.</p>
+
+                    <p>Halaman website ini juga dibuat sebagai submission proyek pada kelas Belajar Dasar Pemrograman
+                        Web dengan kriteria - kriteria yang diberikan oleh tim Dicoding. </p>
+                </div>
+                <aside>
+                    <div class="profile">
+                        <img src="asset/bg-profile.jpg" alt="">
+                        <div class="lihat">
+                            <button>Lihat Profile</button>
+                        </div>
+                        <div class="info">
+                            <img class="img-profile" src="asset/profile.JPG" alt="">
+                            <h1>Farhan Hilmi</h1>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="subscribe bg-light" id="subs">
+            <div class="container">
+                <p>JANGAN KETINGGALAN INFORMASI TERBARU DARI KAMI</p>
+                <div class="subs-bar">
+                    <form action="">
+
+                        <input type="text" class="email" placeholder="Masukan Email">
+                        <span class="subsBtn" onclick="subscribeOnClick()">SUBSCRIBE</span>
+                        <span class="subscribing"></span>
+                        <span class="message"> Terima Kasih. Kamu sudah berlangganan.</span>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="footer-left">
+            <h3>farhanhilmi</h3>
+            <p class="footer-copy">farhanhilmi &copy; 2020</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Paseh, Sumedang</span> Jawa Bara, Indonesia</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+628 966 887 2106</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p>farhanhilmi077@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <p class="footer-follow">
+                <span>Follow</span>
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    <button onclick="topFunction()" id="backBtn" title="Go to top">Top</button>
+    <script type="text/javascript" src="js.js"></script>
+
+</body>
+
+</html>
